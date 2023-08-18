@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  background-color: #F9F3EE;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: a;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#webhead {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 6px;
+}
+#welcomehead {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.inputarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 20px;
+}
+
+.textbox {
+  width: 400px;
+  margin: auto;
+  height: 30px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+#inputbutton {
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #fba1b7;
+  font-size: 15px;
+  font-weight: 400;
+  width: 100px;
+  cursor: pointer;
+  margin-left: 10px;
+  height: 40px;
+}
+#inputbutton:hover {
+  background-color: bisque;
+}
+.textarea {
+  margin: 10px;
+  padding: 20px;
+  
+}
+.textarea h2 {
+  margin-bottom: 5px;
+  text-align: center  ;
+  font-size: 35px;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  width: 600px;
+  margin-bottom: 10px;
+  border: 2px solid #f1356d;
+  padding: 5px;
+  word-wrap: break-word;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+li:hover
+{
+  box-shadow: 2px 3px 2px #f1356d;
+}
+
+#deletebtn {
+  height: 40px;
+  align-self: center;
+  padding: 2px;
+  border-radius: 6px;
+  background-color: #fba1b7;
+  font-size: 15px;
+  font-weight: 400;
+  width: 100px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+#deletebtn:hover {
+  background-color: bisque;
+}
+
+#footer {
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (max-width: 983px) {
+  #inputbutton {
+    margin-top: 10px;
+  }
+}
